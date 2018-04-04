@@ -1,0 +1,41 @@
+/*jumpstart is a tutorial landing page for a ficitonal
+crowdsourcing site. jumpstart is based on specifications
+provided by codecademy.*/
+
+/*-----------------*/
+/*universal styling*/
+/*-----------------*/
+html {
+  font-size:14px;
+}
+
+/*--------------*/
+/*header styling*/
+/*--------------*/
+header ul {
+  float:left;
+  margin: auto 0;
+}
+
+header .navbar-brand {
+  float:right;
+}
+
+header li {
+  margin-right:2rem;
+}
+
+header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav>.active>a:focus, header .navbar-default .navbar-nav>.active>a:hover {
+  background-color:#f8f8f8;
+  color:#399bd1;
+}
+
+.navbar-nav li {
+   line-height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  header .navbar-nav {
+    margin: auto 0;
+  }
+}
