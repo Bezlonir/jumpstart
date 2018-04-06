@@ -149,8 +149,16 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 /*mobile styling for jump off*/
 /*---------------------------*/
 @media only screen and (max-width:568px) {
-  .jump-off h1 {
+  .jump-off .jumbotron-bike h1,
+  .jump-off .jumbotron-beer h1,
+  .jump-off .jumbotron-flowers h1,
+  .jump-off .jumbotron-duffel h1 {
+    padding-top:168px;
     font-size:5.7rem;
+  }
+
+  .jump-off p {
+    width:inherit;
   }
 }
 
