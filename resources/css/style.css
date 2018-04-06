@@ -18,7 +18,7 @@ html {
 }
 
 .image-container img {
-  width:100%;
+  max-width:100%;
   height:auto;
   display:block;
   opacity:0.5;
