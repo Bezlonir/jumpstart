@@ -157,9 +157,9 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 /*------------------------*/
 /*featured product styling*/
 /*------------------------*/
-.featured-project {
-  /*padding-left:2.5rem;
-  padding-right:2.5rem;*/
+.featured-project .container-fluid {
+  padding-left:0;
+  padding-right:0;
 }
 
 .featured-project h2 {
@@ -177,7 +177,7 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 
 .product-categories p {
   line-height:1.4;
-  font-size:1.16rem;
+  font-size:1.2rem;
   color:rgba(0,0,0,0.7);
   margin:0;
 }
@@ -185,9 +185,10 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 /*---------------*/
 /*project styling*/
 /*---------------*/
-.projects {
-  /*padding-left:2.5rem;
-  padding-right:2.5rem;*/
+.projects .container-fluid {
+  padding-left:0;
+  padding-right:0;
+
   padding-bottom:5.85rem;
 }
 .projects h2 {

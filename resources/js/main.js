@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('.jump-carousel').slick({
     accessibility:false,
+    arrows:false,
     autoplay: true,
     autoplaySpeed:4000,
     draggable:false,
