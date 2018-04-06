@@ -14,12 +14,21 @@ html {
   width:100%;
   height:auto;
   overflow:hidden;
+
 }
 
 .image-container img {
   width:100%;
   height:auto;
   display:block;
+  opacity:0.5;
+  transition: opacity 500ms ease-in 70ms,
+            transform 500ms ease-in 70ms;
+}
+
+.image-container img:hover {
+  opacity:1;
+  transform:scale(1.3);
 }
 
 h2 {
@@ -68,7 +77,28 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
   text-align:center;
 }
 
-.jump-off .jumbotron-bike h1 {
+.jumbotron-beer {
+  background-image:url("../images/jumbotron-beer.jpg");
+  background-size:cover;
+  text-align:center;
+}
+
+.jumbotron-flowers {
+  background-image:url("../images/jumbotron-flowers.jpg");
+  background-size:cover;
+  text-align:center;
+}
+
+.jumbotron-duffel {
+  background-image:url("../images/jumbotron-duffel.jpg");
+  background-size:cover;
+  text-align:center;
+}
+
+.jump-off .jumbotron-bike h1,
+.jump-off .jumbotron-beer h1,
+.jump-off .jumbotron-flowers h1,
+.jump-off .jumbotron-duffel h1 {
   margin-top:11.85rem;
   font-family:Monoton, sans-serif;
   color:#f4f4f4;
@@ -157,10 +187,6 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 }
 .projects h2 {
   color:#399bd1;
-}
-
-.projects img {
-  opacity:0.8
 }
 
 /*having trouble styling*/
