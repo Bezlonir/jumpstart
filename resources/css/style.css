@@ -49,12 +49,17 @@ header ul {
   margin:auto 0;
 }
 
+header .container {
+  margin-left:0;
+  margin-right:0;
+}
+
 header .navbar-brand {
   float:right;
 }
 
 header li {
-  margin-right:2rem;
+  padding-right:2rem;
   font-weight:bold;
   font-size:1.1rem;
 }
@@ -153,8 +158,8 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 /*featured product styling*/
 /*------------------------*/
 .featured-project {
-  padding-left:2.5rem;
-  padding-right:2.5rem;
+  /*padding-left:2.5rem;
+  padding-right:2.5rem;*/
 }
 
 .featured-project h2 {
@@ -181,8 +186,8 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 /*project styling*/
 /*---------------*/
 .projects {
-  padding-left:2.5rem;
-  padding-right:2.5rem;
+  /*padding-left:2.5rem;
+  padding-right:2.5rem;*/
   padding-bottom:5.85rem;
 }
 .projects h2 {
