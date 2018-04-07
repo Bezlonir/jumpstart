@@ -73,48 +73,33 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
    line-height:50px;
 }
 
-@media only screen and (max-width: 768px) {
-  /*.navbar .navbar-brand {
-    display:none;
-  }*/
-}
-
-@media only screen and (max-width: 465px) {
-  header .navbar-default {
-    width:100%;
-  }
-}
 /*----------------------------*/
 /*jump-off styling (jumbotron)*/
 /*----------------------------*/
+.jumbotron {
+  height:44rem;
+  text-align:center;
+  background-size:cover;
+  background-position:center;
+}
+
 .jumbotron-bike {
   background-image:url("../images/jumbotron-bike.jpg");
-  background-size:cover;
-  text-align:center;
 }
 
 .jumbotron-beer {
   background-image:url("../images/jumbotron-beer.jpg");
-  background-size:cover;
-  text-align:center;
 }
 
 .jumbotron-flowers {
   background-image:url("../images/jumbotron-flowers.jpg");
-  background-size:cover;
-  text-align:center;
 }
 
 .jumbotron-duffel {
   background-image:url("../images/jumbotron-duffel.jpg");
-  background-size:cover;
-  text-align:center;
 }
 
-.jump-off .jumbotron-bike h1,
-.jump-off .jumbotron-beer h1,
-.jump-off .jumbotron-flowers h1,
-.jump-off .jumbotron-duffel h1 {
+.jump-off h1 {
   margin-top:11.85rem;
   font-family:Monoton, sans-serif;
   color:#f4f4f4;
@@ -160,17 +145,10 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 /*mobile styling for jump off*/
 /*---------------------------*/
 @media only screen and (max-width:568px) {
-  .jump-off .jumbotron-bike h1,
-  .jump-off .jumbotron-beer h1,
-  .jump-off .jumbotron-flowers h1,
-  .jump-off .jumbotron-duffel h1 {
+  .jump-off h1 {
     padding-top:168px;
     font-size:5.7rem;
   }
-
-  /*.jump-off p {
-    width:inherit;
-  }*/
 }
 
 /*------------------------*/
