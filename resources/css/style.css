@@ -55,7 +55,7 @@ header .container {
 }
 
 header .navbar-brand {
-  float:right;
+  /*float:right;*/
 }
 
 header li {
@@ -73,6 +73,17 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
    line-height:50px;
 }
 
+@media only screen and (max-width: 768px) {
+  /*.navbar .navbar-brand {
+    display:none;
+  }*/
+}
+
+@media only screen and (max-width: 465px) {
+  header .navbar-default {
+    width:100%;
+  }
+}
 /*----------------------------*/
 /*jump-off styling (jumbotron)*/
 /*----------------------------*/
@@ -116,7 +127,7 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 }
 
 .jump-off p {
-  width:53.3rem;
+  max-width:53.3rem;
   margin-left:auto;
   margin-right:auto;
   font-family:"Open Sans", sans-serif;
@@ -157,9 +168,9 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
     font-size:5.7rem;
   }
 
-  .jump-off p {
+  /*.jump-off p {
     width:inherit;
-  }
+  }*/
 }
 
 /*------------------------*/
@@ -217,7 +228,7 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
 }
 
 .having-trouble p {
-  width:42rem;
+  max-width:42rem;
   margin-top:1.4rem;
   margin-left:auto;
   margin-right:auto;

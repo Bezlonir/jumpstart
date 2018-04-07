@@ -1,3 +1,5 @@
+var distanceScrolled = 0;
+
 $(document).ready(function(){
   $('.jump-carousel').slick({
     accessibility:false,
@@ -9,4 +11,11 @@ $(document).ready(function(){
     pauseOnHover:false,
     touchMove:false
   });
+});
+
+$(window).scroll(function(){
+  var scrollN = this.scrollTop();
+  if (scronnN >= (distanceScrolled + 50)) {
+    var navBarHeight = $('.jump-nav').height();
+  };
 });
