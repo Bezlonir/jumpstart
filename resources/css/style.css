@@ -73,6 +73,15 @@ header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav
    line-height:50px;
 }
 
+@media only screen and (max-width:768px) {
+  header li {
+    padding-right:0;
+    font-size: 1rem;
+    padding-left:1rem;
+    line-height:40px;
+  }
+}
+
 /*----------------------------*/
 /*jump-off styling (jumbotron)*/
 /*----------------------------*/

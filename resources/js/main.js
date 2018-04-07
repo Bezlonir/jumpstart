@@ -11,11 +11,22 @@ $(document).ready(function(){
     pauseOnHover:false,
     touchMove:false
   });
-});
 
-$(window).scroll(function(){
-  var scrollN = this.scrollTop();
-  if (scronnN >= (distanceScrolled + 50)) {
-    var navBarHeight = $('.jump-nav').height();
-  };
+  $(window).scroll(function(){
+    var scrollN = $(this).scrollTop();
+    if (scrollN >= (distanceScrolled + 50)) {
+      var navBarHeight = $('.jump-nav').height();
+      $(".jump-nav").animate({
+        top:-navBarHeight
+      },
+      150);
+      distanceScrolled=scrollN;
+    } else if (distanceScrolled >= (scrollN - 50)) {
+      $(".jump-nav").animate({
+        top:0
+      },
+      150);
+      distanceScrolled=scrollN;
+    };
+  });
 });
